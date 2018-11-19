@@ -1,0 +1,11 @@
+{
+  "sourceDirectory": "./src",
+  "matchFilesRegex": ".ts$|.js$",
+  "ignoreFilesRegex": "(^\\.)|(\\.spec\\.)|(\\.d\\.)|(\\.animations\\.)|(\\.module\\.)|(\\.expect\\.)|(\\.stub\\.)|(\\.unit\\.)",
+  "stubPrefix": "stub",
+  "backupForSafety": {
+    "backupFolderName": "autostub",
+    "firstBackupBeforeAutostub": true,
+    "latestBackup": true
+  }
+}
