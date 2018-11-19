@@ -21,7 +21,8 @@ export const TEST_APP_WIDE_PROVIDERS: Provider[] = [
 
 // Further example to also bundle in stub providers from other modules with Array.concat()
 // export const TEST_APP_WIDE_PROVIDERS: Provider[] = [
-//   // .....
+// { provide: HttpHelperService, useClass: HttpHelperServiceStub },
+// { provide: HttpClient, useClass: HttpClientStub },
 // ].concat(
 //   TEST_PROVIDERS_APP_SHARED,
 //   TEST_PROVIDERS_APP_CORE,

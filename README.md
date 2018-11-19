@@ -10,3 +10,21 @@ For more info please visit the npm documentation of Autostub.
 1. Run `npm i`
 2. Run `npm run test` to run the jasmine unit test.
 
+## Important Notes:
+
+- Updated **tsconfig.app.json**
+
+Added `"**/*.stub.ts"` and `"**/*.unit.ts"` to tsconfig.app.json so that stub files and unit-test modules are ignored when running `ng build --prod`.
+
+```json
+  "exclude": [
+    "src/test.ts",
+    "**/*.spec.ts",
+    "**/*.stub.ts"
+    "**/*.unit.ts"
+  ]
+```
+
+- Added a file called **app.module.unit.ts**, which contains a full stub App to unit test.
+
+
