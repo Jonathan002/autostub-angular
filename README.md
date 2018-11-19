@@ -10,7 +10,7 @@ For more info please visit the npm documentation of Autostub.
 1. Run `npm i`
 2. Run `npm run test` to run the jasmine unit test.
 
-## Important Notes:
+## Project Notes:
 
 - Updated **tsconfig.app.json**
 
@@ -25,6 +25,6 @@ Added `"**/*.stub.ts"` and `"**/*.unit.ts"` to tsconfig.app.json so that stub fi
   ]
 ```
 
-- Added a file called **app.module.unit.ts**, which contains a full stub App to unit test.
+- Added a file called **app.module.unit.ts**, which contains a stub App to unit test.
 
 
